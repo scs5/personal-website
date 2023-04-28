@@ -4,3 +4,7 @@
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.app-container {
+  background-color: #041C32;
+}
