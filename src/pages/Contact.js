@@ -1,12 +1,53 @@
-import React from "react"
+import React, { useState } from "react"
 import "./Contact.css"
 
 function Contact() {
+  const [name, setName ] = useState('');
+  const [email, setEmail ] = useState('');
+  const [message, setMessage ] = useState('');
+
   return (
     <section id="contact">
-      <div>
-        <h1>Contact</h1>
-        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Odio morbi quis commodo odio aenean sed adipiscing diam. Non diam phasellus vestibulum lorem. Et tortor consequat id porta nibh. Odio tempor orci dapibus ultrices in iaculis nunc sed. Quis lectus nulla at volutpat. Vel quam elementum pulvinar etiam non. Mi proin sed libero enim sed faucibus turpis in eu. In metus vulputate eu scelerisque felis imperdiet proin fermentum. Malesuada fames ac turpis egestas integer. Facilisis gravida neque convallis a cras semper. Nisi quis eleifend quam adipiscing. Sit amet justo donec enim diam vulputate. Dis parturient montes nascetur ridiculus mus mauris vitae ultricies leo. Sed vulputate mi sit amet mauris. Ut aliquam purus sit amet luctus venenatis lectus magna fringilla. </p>
+      <div className="contact-container">
+        <form>
+          <div className="form-group">
+            <label htmlFor="name"> Your name
+              <input 
+                type="text" 
+                id="name" 
+                name="name" 
+                value={name}
+                onChange={e => setName(e.target.value)}
+              />
+            </label>
+          </div>
+
+          <div className="form-group">
+            <label htmlFor="email"> Your email
+              <input 
+                type="text" 
+                id="email" 
+                name="email" 
+                value={email}
+                onChange={e => setEmail(e.target.value)}
+              />
+            </label>
+          </div>
+
+          <div className="form-group">
+            <label htmlFor="message"> Your message
+              <textarea 
+                type="text" 
+                id="message" 
+                name="message" 
+                value={message}
+                onChange={e => setMessage(e.target.value)}
+              />
+            </label>
+          </div>
+
+          <button type="submit"> Send </button>
+        </form>
       </div>
     </section>
   )

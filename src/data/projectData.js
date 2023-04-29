@@ -2,7 +2,7 @@ export const projectData = [
   {
     id: 1,
     name: "Project 1",
-    imageSrc: require("../assets/mushroom.png"),
+    imageSrc: require("../assets/maplestory.jpg"),
     githubLink: "https://github.com",
     demoLink: "https://demo.com",
     toolsUsed: ["React", "Node.js", "MongoDB"],
@@ -12,7 +12,7 @@ export const projectData = [
   {
     id: 2,
     name: "Project 2",
-    imageSrc: require("../assets/mushroom.png"),
+    imageSrc: require("../assets/maplestory.jpg"),
     githubLink: "https://github.com",
     demoLink: "https://demo.com",
     toolsUsed: ["React", "Node.js", "MongoDB"],
@@ -22,7 +22,7 @@ export const projectData = [
   {
     id: 3,
     name: "Project 3",
-    imageSrc: require("../assets/mushroom.png"),
+    imageSrc: require("../assets/maplestory.jpg"),
     githubLink: "https://github.com",
     demoLink: "https://demo.com",
     toolsUsed: ["React", "Node.js", "MongoDB"],
@@ -32,7 +32,7 @@ export const projectData = [
   {
     id: 4,
     name: "Project 4",
-    imageSrc: require("../assets/mushroom.png"),
+    imageSrc: require("../assets/maplestory.jpg"),
     githubLink: "https://github.com",
     demoLink: "https://demo.com",
     toolsUsed: ["React", "Node.js", "MongoDB"],
@@ -42,7 +42,7 @@ export const projectData = [
   {
     id: 5,
     name: "Project 5",
-    imageSrc: require("../assets/mushroom.png"),
+    imageSrc: require("../assets/maplestory.jpg"),
     githubLink: "https://github.com",
     demoLink: "https://demo.com",
     toolsUsed: ["React", "Node.js", "MongoDB"],
@@ -52,7 +52,7 @@ export const projectData = [
   {
     id: 6,
     name: "Project 6",
-    imageSrc: require("../assets/mushroom.png"),
+    imageSrc: require("../assets/maplestory.jpg"),
     githubLink: "https://github.com",
     demoLink: "https://demo.com",
     toolsUsed: ["React", "Node.js", "MongoDB"],
