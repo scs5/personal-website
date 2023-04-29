@@ -1,0 +1,27 @@
+.about-container {
+  margin: 0 auto;
+  max-width: 1000px;
+  padding: 5rem 0;
+  color: rgb(216, 216, 216);
+  display: flex;
+  justify-content: space-around;
+}
+
+.left-section {
+  max-width: 500px;
+}
+
+.right-section img{
+  border: 2px solid #dadada;
+}
+
+.about-header {
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
+}
+
+.about-header span{
+  background-color: #1f1e1f;
+  padding: 0.5rem;
+  border-radius: 8px;
+}
