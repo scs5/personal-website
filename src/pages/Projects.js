@@ -1,12 +1,36 @@
-import React from "react"
+import React, { useState } from "react"
 import "./Projects.css"
+import { projectData } from "../data/projectData"
 
 function Projects() {
+  const [activeFilter, setActiveFilter] = useState("All");
+  const filters = ["All", "Data Viz", "Deep Learning", "Computer Vision"];
+  const filteredProjects = activeFilter === "All" ? projectData : projectData.filter(project => project.categories.includes(activeFilter));
+
+  const handleFilterClick = (filter) => {
+    setActiveFilter(filter);
+  };
+  
   return (
     <section id="projects">
-      <div>
-        <h1>Projects</h1>
-        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Odio morbi quis commodo odio aenean sed adipiscing diam. Non diam phasellus vestibulum lorem. Et tortor consequat id porta nibh. Odio tempor orci dapibus ultrices in iaculis nunc sed. Quis lectus nulla at volutpat. Vel quam elementum pulvinar etiam non. Mi proin sed libero enim sed faucibus turpis in eu. In metus vulputate eu scelerisque felis imperdiet proin fermentum. Malesuada fames ac turpis egestas integer. Facilisis gravida neque convallis a cras semper. Nisi quis eleifend quam adipiscing. Sit amet justo donec enim diam vulputate. Dis parturient montes nascetur ridiculus mus mauris vitae ultricies leo. Sed vulputate mi sit amet mauris. Ut aliquam purus sit amet luctus venenatis lectus magna fringilla. </p>
+      <div className="filter-bar">
+        {filters.map((filter) => (
+          <button
+            key={filter}
+            className={activeFilter === filter ? "active" : ""}
+            onClick={() => handleFilterClick(filter)}
+          >
+            {filter}
+          </button>
+        ))}
+      </div>
+      <div className="project-grid">
+        {filteredProjects.map((project) => (
+          <div key={project.id} className="project">
+            <img src={project.imageSrc} alt={`Project ${project.id}`} />
+            <div className="project-name">{project.name}</div>
+          </div>
+        ))}
       </div>
     </section>
   )
