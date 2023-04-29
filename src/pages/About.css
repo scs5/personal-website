@@ -1,12 +1,23 @@
 .about-container {
   margin: 0 auto;
+  padding-top: 1.5rem;
   max-width: 1000px;
-  padding: 5rem 0;
   color: rgb(216, 216, 216);
   display: flex;
   justify-content: space-around;
+  color: #bcb3b4;
 }
 
 .right-section img{
-  border: 2px solid #dadada;
+  border: 2px solid #bcb3b4;
+}
+
+.section-title {
+  font-family: 'Montserrat Bold';
+  font-size: 3rem;
+  margin-top: 6rem;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  color: #bcb3b4;
 }

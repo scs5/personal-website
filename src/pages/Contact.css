@@ -1,5 +1,6 @@
 .contact-container {
   width: 100%;
+  padding-top: 1.5rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -12,19 +13,20 @@
 
 label {
   font-size: 1rem;
-  color: #dadada;
+  color: #bcb3b4;
 }
 
 input, textarea {
   width: 100%;
   font-size: 1rem;
   padding: 1.2rem;
-  color: #dadada;
+  color: #bcb3b4;
   background-color: #1f1e1f;
   outline: none;
   border: none;
   border-radius: 8px;
   margin-top: 0.5rem;
+  caret-color: #bcb3b4;
 }
 
 textarea {
@@ -33,7 +35,7 @@ textarea {
 }
 
 button[type="submit"] {
-  background-color: #dadada;
+  background-color: #bcb3b4;
   color: black;
   font-size: 1rem;
   display: inline-block;

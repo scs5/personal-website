@@ -8,16 +8,20 @@ function Contact() {
 
   return (
     <section id="contact">
+      <h1 className="section-title"> Contact </h1>
+
       <div className="contact-container">
-        <form>
+        <form autoComplete="off">
           <div className="form-group">
             <label htmlFor="name"> Your name
               <input 
+                autoComplete="off"
                 type="text" 
                 id="name" 
                 name="name" 
                 value={name}
                 onChange={e => setName(e.target.value)}
+                autocomplete="nope"
               />
             </label>
           </div>
@@ -30,6 +34,7 @@ function Contact() {
                 name="email" 
                 value={email}
                 onChange={e => setEmail(e.target.value)}
+                autocomplete="nope"
               />
             </label>
           </div>

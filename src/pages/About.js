@@ -5,6 +5,8 @@ import AboutImg from "../assets/mushroom.png"
 function About() {
   return (
     <section id="about">
+      <h1 className="section-title"> About </h1>
+
       <div className="about-container">
         <div className="left-section">
           <div className="about-info">
