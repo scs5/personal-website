@@ -2,13 +2,26 @@
   width: 100%;
   padding-top: 1.5rem;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
+.contact-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 2rem;
+  align-items: start;
+}
+
+.left-section {
+  display: flex;
+  flex-direction: column;
+}
+
 .form-group {
   width: 100%;
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
 }
 
 label {
@@ -30,10 +43,17 @@ input, textarea {
 }
 
 textarea {
-  min-height: 250px;
   resize: vertical;
+  height: 100%;
+  min-height: 8.4rem;
+  min-width: 400px;
 }
 
+.button-section {
+  display: flex;
+  justify-content: center;
+}
+ 
 button[type="submit"] {
   background-color: #bcb3b4;
   color: black;
