@@ -1,0 +1,17 @@
+.home-container {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.name-title {
+  color: #bcb3b4;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.intro {
+  color: #bcb3b4;
+  display: flex;
+  justify-content: center;
+}
