@@ -12,56 +12,58 @@ function Contact() {
 
       <div className="contact-container">
         <form autoComplete="off" className="contact-form">
-          <div className="left-section">
-            <div className="form-group">
-              <label htmlFor="name"> Your name
-                <input 
-                  type="text" 
-                  id="name" 
-                  name="name" 
-                  value={name}
-                  onChange={e => setName(e.target.value)}
-                  autoComplete="nope"
-                />
-              </label>
+          <div className="form-row">
+            <div className="form-col">
+              <div className="form-group name">
+                <label htmlFor="name"> Your name
+                  <input 
+                    type="text" 
+                    id="name" 
+                    name="name" 
+                    value={name}
+                    onChange={e => setName(e.target.value)}
+                    autoComplete="nope"
+                  />
+                </label>
+              </div>
+
+              <div className="form-group email">
+                <label htmlFor="email"> Your email
+                  <input 
+                    type="text" 
+                    id="email" 
+                    name="email" 
+                    value={email}
+                    onChange={e => setEmail(e.target.value)}
+                    autoComplete="nope"
+                  />
+                </label>
+              </div>
             </div>
 
-            <div className="form-group">
-              <label htmlFor="email"> Your email
-                <input 
-                  type="text" 
-                  id="email" 
-                  name="email" 
-                  value={email}
-                  onChange={e => setEmail(e.target.value)}
-                  autoComplete="nope"
-                />
-              </label>
+            <div className="form-col">
+              <div className="form-group message">
+                <label htmlFor="message"> Your message
+                  <textarea 
+                    type="text" 
+                    id="message" 
+                    name="message" 
+                    value={message}
+                    onChange={e => setMessage(e.target.value)}
+                  />
+                </label>
+              </div>
             </div>
           </div>
 
-          <div className="right-section">
-            <div className="form-group">
-              <label htmlFor="message"> Your message
-                <textarea 
-                  type="text" 
-                  id="message" 
-                  name="message" 
-                  value={message}
-                  onChange={e => setMessage(e.target.value)}
-                />
-              </label>
-            </div>
+          <div className="button-container">
+            <button type="submit" className="send-button">Send</button>
           </div>
         </form>
-
-        <div className="button-section">
-          <button type="submit"> Send </button>
-        </div>
       </div>
     </section>
-
   )
 }
 
 export default Contact;
+
