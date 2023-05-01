@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
+import emailjs from '@emailjs/browser'
 import "./Contact.css";
 
 function Contact() {
@@ -6,12 +7,29 @@ function Contact() {
   const [email, setEmail ] = useState('');
   const [message, setMessage ] = useState('');
 
+  const form = useRef();
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_l4gl99c', 'template_zmgnccm', form.current, 'wgy1cMW6676ZpP1-y')
+      .then((result) => {
+          console.log(result.text);
+          window.alert("message sent");
+      }, (error) => {
+          console.log(error.text);
+          window.alert("error")
+      });
+      setName('');
+      setEmail('');
+      setMessage('');
+  };
+
   return (
     <section id="contact">
       <h1 className="section-title"> Contact </h1>
 
       <div className="contact-container">
-        <form autoComplete="off" className="contact-form">
+        <form ref={form} onSubmit={sendEmail} autoComplete="off" className="contact-form" action="https://getform.io/f/a82402de-b795-4e14-b31b-13dee7e02187" name="POST">
           <div className="form-row">
             <div className="form-col">
               <div className="form-group name">
