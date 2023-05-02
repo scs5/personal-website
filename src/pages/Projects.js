@@ -13,17 +13,20 @@ function Projects() {
   
   return (
     <section id="projects">
-      <div className="filter-bar">
-        {filters.map((filter) => (
-          <button
-            key={filter}
-            className={activeFilter === filter ? "active" : ""}
-            onClick={() => handleFilterClick(filter)}
-          >
-            {filter}
-          </button>
-        ))}
+      <div className="filter-bar-container">
+        <div className="filter-bar">
+          {filters.map((filter) => (
+            <button
+              key={filter}
+              className={activeFilter === filter ? "active" : ""}
+              onClick={() => handleFilterClick(filter)}
+            >
+              {filter}
+            </button>
+          ))}
+        </div>
       </div>
+      <div className="filter-bar-shadow" />
       <div className="project-grid">
         {filteredProjects.map((project) => (
           <div key={project.id} className="project">

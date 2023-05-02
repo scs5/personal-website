@@ -52,31 +52,40 @@
   transition: opacity 0.3s ease-in-out;
 }
 
-.filter-bar {
+.filter-bar-container {
   display: flex;
   justify-content: center;
-  align-items: center;
   margin-top: 30px;
+  margin-bottom: 20px;
+  padding: 0 20px;
+  position: relative;
+}
+
+.filter-bar {
+  display: flex;
+  background-color: #bcb3b4;
+  padding: 5px 10%;
+  max-width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  --filter-bar-width: 100%;
 }
 
 .filter-bar button {
   background-color: transparent;
   border: none;
-  padding: 8px;
+  padding: 8px 8px;
   margin-right: 10px;
   color: aliceblue;
-  font-size: 16px;
-  font-weight: 500;
+  font-size: 14px;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
+  color: black;
+  font-weight: bold;
+  white-space: nowrap;
 }
 
-.filter-bar button:hover {
+.filter-bar button:hover, button:focus {
   color: #ffdd3a;
-  outline: none;
-}
-
-.filter-bar button:focus {
-  color: #ce6a17;
   outline: none;
 }
