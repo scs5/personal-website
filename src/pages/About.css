@@ -1,8 +1,8 @@
 .about-container {
   margin: 0 auto;
   padding-top: 1.5rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
   max-width: 1000px;
   color: rgb(216, 216, 216);
   display: flex;
@@ -20,12 +20,15 @@
   color: #bcb3b4;
 }
 
+.left-section {
+  width: 70%;
+  margin-right: 50px;
+}
+
 .right-section {
   display: flex;
   justify-content: center;
-  width: 50%;
-  max-width: 400px;
-  min-width: 100px;
+  width: 35%;
 }
 
 .right-section img {
@@ -38,5 +41,9 @@
 @media screen and (max-width: 920px) {
   .right-section {
     display: none;
+  }
+  .left-section {
+    width: 100%;
+    margin-right: 0px;
   }
 }

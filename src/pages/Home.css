@@ -5,9 +5,10 @@
 
 .name-title {
   color: #bcb3b4;
-  font-size: 50px;
+  font-size: 80px;
   display: flex;
   justify-content: center;
+  font-family: 'Montserrat Bold';
 }
 
 .intro {
