@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/personal-website/static/css/main.cdc67f53.css",
-    "main.js": "/personal-website/static/js/main.b0c6e98c.js",
+    "main.js": "/personal-website/static/js/main.44038970.js",
     "static/media/profile.jpg": "/personal-website/static/media/profile.cf09a2a789233c4e32dc.jpg",
     "static/media/Sam_Smith_Resume.pdf": "/personal-website/static/media/Sam_Smith_Resume.eaa096c399e104f7120b.pdf",
     "static/media/maplestory.jpg": "/personal-website/static/media/maplestory.8f7420dfd2aeb4f84c7f.jpg",
     "static/media/mushroom.png": "/personal-website/static/media/mushroom.b1dbe45882f7406a779a.png",
     "index.html": "/personal-website/index.html",
     "main.cdc67f53.css.map": "/personal-website/static/css/main.cdc67f53.css.map",
-    "main.b0c6e98c.js.map": "/personal-website/static/js/main.b0c6e98c.js.map"
+    "main.44038970.js.map": "/personal-website/static/js/main.44038970.js.map"
   },
   "entrypoints": [
     "static/css/main.cdc67f53.css",
-    "static/js/main.b0c6e98c.js"
+    "static/js/main.44038970.js"
   ]
 }
