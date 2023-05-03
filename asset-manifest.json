@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/personal-website/static/css/main.7dfff85f.css",
-    "main.js": "/personal-website/static/js/main.2b2db2fa.js",
+    "main.css": "/personal-website/static/css/main.97b1ad1c.css",
+    "main.js": "/personal-website/static/js/main.27fefdee.js",
     "static/media/profile.jpg": "/personal-website/static/media/profile.cf09a2a789233c4e32dc.jpg",
     "static/media/maplestory.jpg": "/personal-website/static/media/maplestory.8f7420dfd2aeb4f84c7f.jpg",
     "static/media/mushroom.png": "/personal-website/static/media/mushroom.b1dbe45882f7406a779a.png",
     "index.html": "/personal-website/index.html",
-    "main.7dfff85f.css.map": "/personal-website/static/css/main.7dfff85f.css.map",
-    "main.2b2db2fa.js.map": "/personal-website/static/js/main.2b2db2fa.js.map"
+    "main.97b1ad1c.css.map": "/personal-website/static/css/main.97b1ad1c.css.map",
+    "main.27fefdee.js.map": "/personal-website/static/js/main.27fefdee.js.map"
   },
   "entrypoints": [
-    "static/css/main.7dfff85f.css",
-    "static/js/main.2b2db2fa.js"
+    "static/css/main.97b1ad1c.css",
+    "static/js/main.27fefdee.js"
   ]
 }
