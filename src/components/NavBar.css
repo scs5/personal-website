@@ -1,5 +1,4 @@
 .nav {
-  position: fixed;
   background-color: black;
   color: black;
   display: flex;
@@ -10,6 +9,8 @@
   color: #bcb3b4;
   width: 100%;
   z-index: 9999;
+  transition: all 0.3s ease-in-out;
+  position: fixed;
 }
 
 .nav ul {
@@ -35,4 +36,8 @@
 
 .logo {
   height: 70px;
+}
+
+.hidden-nav {
+  transform: translateY(-100%);
 }
