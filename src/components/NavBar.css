@@ -1,11 +1,15 @@
 .nav {
-  background-color: aliceblue;
+  position: fixed;
+  background-color: black;
   color: black;
   display: flex;
   justify-content: space-between;
   align-items: stretch;
   gap: 2rem;
   padding: 0 1rem;
+  color: #bcb3b4;
+  width: 100%;
+  z-index: 9999;
 }
 
 .nav ul {
@@ -25,12 +29,8 @@
   padding: 0.25rem;
 }
 
-.nav li.active {
-  background-color: red;
-}
-
 .nav li:hover {
-  background-color: yellow;
+  color: #ffdd3a;
 }
 
 .logo {
