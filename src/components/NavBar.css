@@ -39,6 +39,7 @@
 }
 
 .hidden-nav {
+  background-color: black;
   transform: translateY(-100%);
 }
 
@@ -48,12 +49,16 @@
 
 .toggle-button {
   display: none !important;
+  background-color: inherit;
+  color: inherit;
+  border: none;
   font-size: 40px;
   position: absolute;
   flex-direction: column;
   justify-content: space-between;
   top: 15px;
   right: 1rem;
+  margin-top: 4px;
 }
 
 .toggle-button:hover {

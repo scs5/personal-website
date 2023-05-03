@@ -31,13 +31,13 @@ const NavBar = () => {
 
   useEffect(() => {
     // show navbar if once scrolled down far enough
-    if (scrollData.y > hideNavHeight) {
+    if (scrollData.y >= hideNavHeight) {
       setShowNav(true);
     } else {
       setShowNav(false);
     }
 
-    // show navbar if user scrolls us
+    // show navbar if user scrolls up
     if (scrollData.lastY < scrollData.y) {
       setShowNav(true);
     } else {
@@ -60,9 +60,9 @@ const NavBar = () => {
           <img src={require('../assets/mushroom.png')} alt="logo" className="logo" />
         </HashLink>
 
-        <a className="toggle-button" onClick={() => setDropdown(!dropdown)}>
+        <button className="toggle-button" onClick={() => setDropdown(!dropdown)}>
           <i className="fa fa-bars"></i>
-        </a>
+        </button>
 
         <div className={`navbar-links ${dropdown ? 'active' : ''}`}>
           <ul>
