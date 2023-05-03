@@ -41,3 +41,7 @@
 .hidden-nav {
   transform: translateY(-100%);
 }
+
+.resume-link {
+  padding-left: 5px;
+}
