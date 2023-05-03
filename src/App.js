@@ -1,5 +1,6 @@
 import './App.css';
 import Home from "./pages/Home"
+import Socials from "./pages/Socials"
 import Projects from "./pages/Projects"
 import About from "./pages/About"
 import NavBar from './components/NavBar';
@@ -13,6 +14,7 @@ function App() {
       < ToastContainer />
       < NavBar />
       < Home />
+      < Socials />
       < Projects />
       < About />
       < Contact />

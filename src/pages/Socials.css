@@ -1,0 +1,60 @@
+.social-menu {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 75px;
+}
+
+.social-icon a {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  border-radius: 50%;
+  text-align: center;
+  margin: 0 15px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+  transform: translateY(0) scale(1);
+  transition: 0.3s;
+  z-index: 9999;
+}
+
+.social-icon:hover a {
+  transform: translateY(-6px) scale(1.2);
+  margin: 0 20px;
+}
+
+.social-icon:nth-child(1):hover a {
+  background-color: #ffdd3a;
+}
+
+.social-icon:nth-child(2):hover a {
+  background-color: #ffdd3a;
+}
+
+.social-icon a i {
+  font-size: 35px;
+  color: black;
+  line-height: 50px;
+  position: relative;
+  z-index: 9999;
+}
+
+.social-icon {
+  position: relative;
+}
+
+.social-icon span {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  font-size: 20px;
+  transition: 0.3s;
+  color: aliceblue;
+  z-index: 0;
+}
+
+.social-icon:hover span {
+  transform: translate(-50%, 90%) scale(1);
+}
