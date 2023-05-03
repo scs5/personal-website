@@ -3,8 +3,8 @@
   color: black;
   display: flex;
   justify-content: space-between;
-  align-items: stretch;
-  gap: 2rem;
+  align-items: center;
+  gap: 0rem;
   padding: 0 1rem;
   color: #bcb3b4;
   width: 100%;
@@ -44,4 +44,53 @@
 
 .resume-link {
   padding-left: 5px;
+}
+
+.toggle-button {
+  display: none !important;
+  font-size: 40px;
+  position: absolute;
+  flex-direction: column;
+  justify-content: space-between;
+  top: 15px;
+  right: 1rem;
+}
+
+.toggle-button:hover {
+  color: #ffdd3a;
+}
+
+@media (max-width: 550px) {
+  .toggle-button {
+    display: flex !important;
+  }
+
+  .navbar-links {
+    display: none;
+    width: 100%;
+  }
+
+  .nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar-links ul {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .navbar-links li a {
+    padding: 0;
+  }
+
+  .navbar-links li:last-child {
+    margin-bottom: 10px;
+  }
+
+  .navbar-links.active {
+    display: flex;
+  }
 }
