@@ -5,7 +5,7 @@ export const projectData = [
     imageSrc: require("../assets/fractal1.webp"),
     githubLink: "https://github.com",
     demoLink: "https://demo.com",
-    toolsUsed: ["React", "Node.js", "MongoDB"],
+    technologies: ["React", "Node.js", "MongoDB"],
     categories: ["Deep Learning", "Computer Vision"],
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
   },
@@ -15,7 +15,7 @@ export const projectData = [
     imageSrc: require("../assets/fractal2.webp"),
     githubLink: "https://github.com",
     demoLink: "https://demo.com",
-    toolsUsed: ["React", "Node.js", "MongoDB"],
+    technologies: ["React", "Node.js", "MongoDB"],
     categories: ["Data Viz"],
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
   },
@@ -25,7 +25,7 @@ export const projectData = [
     imageSrc: require("../assets/fractal3.webp"),
     githubLink: "https://github.com",
     demoLink: "https://demo.com",
-    toolsUsed: ["React", "Node.js", "MongoDB"],
+    technologies: ["React", "Node.js", "MongoDB"],
     categories: ["Data Viz"],
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
   },
@@ -35,7 +35,7 @@ export const projectData = [
     imageSrc: require("../assets/fractal4.webp"),
     githubLink: "https://github.com",
     demoLink: "https://demo.com",
-    toolsUsed: ["React", "Node.js", "MongoDB"],
+    technologies: ["React", "Node.js", "MongoDB"],
     categories: ["Data Viz", "Computer Vision"],
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
   },
@@ -45,7 +45,7 @@ export const projectData = [
     imageSrc: require("../assets/fractal5.webp"),
     githubLink: "https://github.com",
     demoLink: "https://demo.com",
-    toolsUsed: ["React", "Node.js", "MongoDB"],
+    technologies: ["React", "Node.js", "MongoDB"],
     categories: ["Computer Vision"],
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
   },
@@ -55,7 +55,7 @@ export const projectData = [
     imageSrc: require("../assets/fractal6.webp"),
     githubLink: "https://github.com",
     demoLink: "https://demo.com",
-    toolsUsed: ["React", "Node.js", "MongoDB"],
+    technologies: ["React", "Node.js", "MongoDB"],
     categories: ["Data Viz", "Deep Learning"],
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
   },
@@ -65,7 +65,7 @@ export const projectData = [
     imageSrc: require("../assets/fractal7.webp"),
     githubLink: "https://github.com",
     demoLink: "https://demo.com",
-    toolsUsed: ["React", "Node.js", "MongoDB"],
+    technologies: ["React", "Node.js", "MongoDB"],
     categories: ["Data Viz"],
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
   },
@@ -75,7 +75,7 @@ export const projectData = [
     imageSrc: require("../assets/fractal8.webp"),
     githubLink: "https://github.com",
     demoLink: "https://demo.com",
-    toolsUsed: ["React", "Node.js", "MongoDB"],
+    technologies: ["React", "Node.js", "MongoDB"],
     categories: ["Deep Learning"],
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
   },
@@ -85,7 +85,7 @@ export const projectData = [
     imageSrc: require("../assets/fractal9.webp"),
     githubLink: "https://github.com",
     demoLink: "https://demo.com",
-    toolsUsed: ["React", "Node.js", "MongoDB"],
+    technologies: ["React", "Node.js", "MongoDB"],
     categories: ["Computer Vision"],
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
   }
