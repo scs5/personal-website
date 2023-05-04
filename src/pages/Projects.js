@@ -1,6 +1,7 @@
 import React, { useState } from "react"
 import "./Projects.css"
 import { projectData } from "../data/projectData"
+import { motion, AnimatePresence } from "framer-motion"
 
 function Projects() {
   const [activeFilter, setActiveFilter] = useState("All");
@@ -27,14 +28,25 @@ function Projects() {
         </div>
       </div>
       <div className="filter-bar-shadow" />
-      <div className="project-grid">
-        {filteredProjects.map((project) => (
-          <div key={project.id} className="project">
-            <img src={project.imageSrc} alt={`Project ${project.id}`} />
-            <div className="project-name">{project.name}</div>
-          </div>
-        ))}
-      </div>
+      <motion.div
+        layout
+        className="project-grid"
+      >
+        <AnimatePresence>
+          {filteredProjects.map((project) => (
+            <motion.div 
+              animate={{ opacity: 1 }}
+              initial={{ opacity: 0 }}
+              exit={{ opacity: 0 }}
+              layout key={project.id} 
+              className="project"
+            >
+              <img src={project.imageSrc} alt={`Project ${project.id}`} />
+              <div className="project-name">{project.name}</div>
+            </motion.div>
+          ))}
+        </AnimatePresence>
+      </motion.div>
     </section>
   )
 }
