@@ -1,6 +1,7 @@
 import React, { useState, useRef } from "react";
 import emailjs from '@emailjs/browser'
 import "./Contact.css";
+import { toast } from 'react-toastify';
 
 function Contact() {
   const [name, setName ] = useState('');
@@ -11,13 +12,16 @@ function Contact() {
   const sendEmail = (e) => {
     e.preventDefault();
 
+    if (!name || !email || !message) {
+      toast.error("Please fill out all fields");
+      return;
+    }
+
     emailjs.sendForm('service_l4gl99c', 'template_zmgnccm', form.current, 'wgy1cMW6676ZpP1-y')
       .then((result) => {
-          console.log(result.text);
-          window.alert("message sent");
+          toast.success("Message sent successfully");
       }, (error) => {
-          console.log(error.text);
-          window.alert("error")
+          toast.error("Error sending message");
       });
       setName('');
       setEmail('');

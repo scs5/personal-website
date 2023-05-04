@@ -15,7 +15,7 @@ function About() {
             pursuing a Masters in Computer Science at North Carolina State University.
             <br /><br />
             I love using data to solve problems and make informed decisions. Whether
-            it's analyzing trends or building machine learning models, I'm always
+            it's analyzing trends or crafting machine learning models, I'm always
             excited to dive into a new project and see where it takes me.
             <br /><br />
             In my free time I enjoy activities such as rock climbing, video games, and anime.
