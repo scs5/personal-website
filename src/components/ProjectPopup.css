@@ -53,23 +53,23 @@
 
 .project-title {
   font-size: 3.5rem;
-  margin-top: 0;
-  margin-bottom: 20px;
+  margin-top: 70px;
+  margin-bottom: 30px;
 }
 
 .project-technologies {
   font-size: 1.2rem;
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 .project-description {
-  margin-top: 20px;
+  margin-top: 40px;
   font-size: 1rem;
 }
 
 .project-link {
   font-size: 1rem;
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 .demo-link {
