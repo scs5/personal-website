@@ -2,7 +2,7 @@ export const projectData = [
   {
     id: 1,
     name: "Project 1",
-    imageSrc: require("../assets/fractal1.jpg"),
+    imageSrc: require("../assets/fractal1.webp"),
     githubLink: "https://github.com",
     demoLink: "https://demo.com",
     toolsUsed: ["React", "Node.js", "MongoDB"],
@@ -12,7 +12,7 @@ export const projectData = [
   {
     id: 2,
     name: "Project 2",
-    imageSrc: require("../assets/fractal2.jpg"),
+    imageSrc: require("../assets/fractal2.webp"),
     githubLink: "https://github.com",
     demoLink: "https://demo.com",
     toolsUsed: ["React", "Node.js", "MongoDB"],
@@ -22,7 +22,7 @@ export const projectData = [
   {
     id: 3,
     name: "Project 3",
-    imageSrc: require("../assets/fractal3.png"),
+    imageSrc: require("../assets/fractal3.webp"),
     githubLink: "https://github.com",
     demoLink: "https://demo.com",
     toolsUsed: ["React", "Node.js", "MongoDB"],
@@ -32,7 +32,7 @@ export const projectData = [
   {
     id: 4,
     name: "Project 4",
-    imageSrc: require("../assets/fractal4.png"),
+    imageSrc: require("../assets/fractal4.webp"),
     githubLink: "https://github.com",
     demoLink: "https://demo.com",
     toolsUsed: ["React", "Node.js", "MongoDB"],
@@ -42,7 +42,7 @@ export const projectData = [
   {
     id: 5,
     name: "Project 5",
-    imageSrc: require("../assets/fractal5.jpg"),
+    imageSrc: require("../assets/fractal5.webp"),
     githubLink: "https://github.com",
     demoLink: "https://demo.com",
     toolsUsed: ["React", "Node.js", "MongoDB"],
@@ -52,7 +52,7 @@ export const projectData = [
   {
     id: 6,
     name: "Project 6",
-    imageSrc: require("../assets/fractal6.jpg"),
+    imageSrc: require("../assets/fractal6.webp"),
     githubLink: "https://github.com",
     demoLink: "https://demo.com",
     toolsUsed: ["React", "Node.js", "MongoDB"],
@@ -62,7 +62,7 @@ export const projectData = [
   {
     id: 7,
     name: "Project 7",
-    imageSrc: require("../assets/fractal7.jpg"),
+    imageSrc: require("../assets/fractal7.webp"),
     githubLink: "https://github.com",
     demoLink: "https://demo.com",
     toolsUsed: ["React", "Node.js", "MongoDB"],
@@ -72,7 +72,7 @@ export const projectData = [
   {
     id: 8,
     name: "Project 8",
-    imageSrc: require("../assets/fractal8.jpg"),
+    imageSrc: require("../assets/fractal8.webp"),
     githubLink: "https://github.com",
     demoLink: "https://demo.com",
     toolsUsed: ["React", "Node.js", "MongoDB"],
@@ -82,7 +82,7 @@ export const projectData = [
   {
     id: 9,
     name: "Project 9",
-    imageSrc: require("../assets/fractal9.jpg"),
+    imageSrc: require("../assets/fractal9.webp"),
     githubLink: "https://github.com",
     demoLink: "https://demo.com",
     toolsUsed: ["React", "Node.js", "MongoDB"],
