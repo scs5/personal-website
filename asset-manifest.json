@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.d90174ca.css",
-    "main.js": "/static/js/main.ed189fcd.js",
+    "main.css": "/static/css/main.1053e3f7.css",
+    "main.js": "/static/js/main.62ec6c51.js",
     "static/media/profile.jpg": "/static/media/profile.cf09a2a789233c4e32dc.jpg",
     "static/media/fractal7.webp": "/static/media/fractal7.e96a1aa2e72ba39f2382.webp",
     "static/media/fractal2.webp": "/static/media/fractal2.3a037bc6ffa76413dba6.webp",
@@ -15,11 +15,11 @@
     "static/media/fractal4.webp": "/static/media/fractal4.2256cd4d8573f2d223e3.webp",
     "static/media/mushroom.png": "/static/media/mushroom.b1dbe45882f7406a779a.png",
     "index.html": "/index.html",
-    "main.d90174ca.css.map": "/static/css/main.d90174ca.css.map",
-    "main.ed189fcd.js.map": "/static/js/main.ed189fcd.js.map"
+    "main.1053e3f7.css.map": "/static/css/main.1053e3f7.css.map",
+    "main.62ec6c51.js.map": "/static/js/main.62ec6c51.js.map"
   },
   "entrypoints": [
-    "static/css/main.d90174ca.css",
-    "static/js/main.ed189fcd.js"
+    "static/css/main.1053e3f7.css",
+    "static/js/main.62ec6c51.js"
   ]
 }
