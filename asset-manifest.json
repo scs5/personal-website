@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/personal-website/static/css/main.23516548.css",
-    "main.js": "/personal-website/static/js/main.eb8046ed.js",
+    "main.css": "/personal-website/static/css/main.d57f9990.css",
+    "main.js": "/personal-website/static/js/main.64d91339.js",
     "static/media/fractal8.webp": "/personal-website/static/media/fractal8.930a535ad189cc9c7669.webp",
     "static/media/profile.jpg": "/personal-website/static/media/profile.cf09a2a789233c4e32dc.jpg",
     "static/media/fractal7.webp": "/personal-website/static/media/fractal7.e96a1aa2e72ba39f2382.webp",
@@ -15,11 +15,11 @@
     "static/media/fractal4.webp": "/personal-website/static/media/fractal4.2256cd4d8573f2d223e3.webp",
     "static/media/mushroom.png": "/personal-website/static/media/mushroom.b1dbe45882f7406a779a.png",
     "index.html": "/personal-website/index.html",
-    "main.23516548.css.map": "/personal-website/static/css/main.23516548.css.map",
-    "main.eb8046ed.js.map": "/personal-website/static/js/main.eb8046ed.js.map"
+    "main.d57f9990.css.map": "/personal-website/static/css/main.d57f9990.css.map",
+    "main.64d91339.js.map": "/personal-website/static/js/main.64d91339.js.map"
   },
   "entrypoints": [
-    "static/css/main.23516548.css",
-    "static/js/main.eb8046ed.js"
+    "static/css/main.d57f9990.css",
+    "static/js/main.64d91339.js"
   ]
 }
