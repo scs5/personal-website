@@ -37,16 +37,18 @@
   position: absolute;
   top: 10px;
   right: 10px;
-  font-size: 24px;
-  font-weight: bold;
+  font-size: 75px;
+  font-weight: normal;
   cursor: pointer;
-  padding: 5px;
+  padding: 0;
   line-height: 1;
+  border: none;
+  background: none;
+  color: #4e4e4e;
 }
 
 .close-button:hover {
-  color: #fff;
-  background-color: #000;
+  color: rgb(31, 31, 31);
 }
 
 .project-title {

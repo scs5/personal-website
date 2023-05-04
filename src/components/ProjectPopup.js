@@ -42,7 +42,7 @@ function ProjectPopup({ project, onClose }) {
         transition={{ duration: 0.4 }}
       >
         <button className="close-button" onClick={onClose}>
-          X
+          <i class="fa fa-times-circle-o" aria-hidden="true"></i>
         </button>
         <h2 className="project-title">{project.name}</h2>
         <img className="popup-image" src={project.imageSrc} alt={project.name} />
