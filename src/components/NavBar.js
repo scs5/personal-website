@@ -30,7 +30,7 @@ const NavBar = () => {
   });
 
   useEffect(() => {
-    // show navbar if once scrolled down far enough
+    // hide navbar if user scrolls down
     if (scrollData.y >= hideNavHeight) {
       setShowNav(true);
     } else {
@@ -44,7 +44,7 @@ const NavBar = () => {
       setShowNav(false);
     }
   }, [scrollData.y, scrollData.lastY]);
-
+  
   return (
     <div>
       <nav className={showNav ? 'nav hidden-nav' : 'nav'}>
@@ -81,11 +81,11 @@ const NavBar = () => {
             <li>
               <HashLink
                 to="#about"
-                onClick={() =>
+                onClick={() => {
                   scroll.scrollTo(document.querySelector('#about').offsetTop, {
                     duration: scrollDuration,
-                  })
-                }
+                  });
+                }}
               >
                 About
               </HashLink>
