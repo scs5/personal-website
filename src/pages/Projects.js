@@ -17,7 +17,7 @@ function Projects() {
 
   const handleFilterClick = (filter) => {
     setActiveFilter(filter);
-    setSelectedProject(null); // close any open popup windows
+    setSelectedProject(null);
   };
 
   const handleProjectClick = (project) => {
@@ -51,12 +51,19 @@ function Projects() {
               key={project.id}
               className="project"
               onClick={() => handleProjectClick(project)}
+              onHoverStart={() => {
+                document.querySelector(`#project-${project.id}`).classList.add("hovered");
+              }}
+              onHoverEnd={() => {
+                document.querySelector(`#project-${project.id}`).classList.remove("hovered");
+              }}
             >
               <img
                 src={project.imageSrc}
                 alt={`Project ${project.id}`}
               />
               <div className="project-name">{project.name}</div>
+              <div className="project-overlay" id={`project-${project.id}`}></div>
             </motion.div>
           ))}
         </AnimatePresence>
@@ -72,3 +79,4 @@ function Projects() {
 }
 
 export default Projects;
+
