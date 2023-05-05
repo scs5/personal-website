@@ -67,14 +67,15 @@ const NavBar = () => {
         <div className={`navbar-links ${dropdown ? 'active' : ''}`}>
           <ul>
             <li>
-              <HashLink
-                to="#home"
-                onClick={() =>
-                  scroll.scrollTo(document.querySelector('#home').offsetTop, {
-                    duration: scrollDuration,
-                  })
-                }
-              >
+            <HashLink
+              to="#home"
+              onClick={() => {
+                scroll.scrollTo(document.querySelector('#home').offsetTop, {
+                  duration: scrollDuration,
+                });
+                setDropdown(!dropdown);
+              }}
+            >
                 Home
               </HashLink>
             </li>
@@ -85,6 +86,7 @@ const NavBar = () => {
                   scroll.scrollTo(document.querySelector('#about').offsetTop, {
                     duration: scrollDuration,
                   });
+                  setDropdown(!dropdown);
                 }}
               >
                 About
@@ -93,11 +95,12 @@ const NavBar = () => {
             <li>
               <HashLink
                 to="#contact"
-                onClick={() =>
+                onClick={() => {
                   scroll.scrollTo(document.querySelector('#contact').offsetTop, {
                     duration: scrollDuration,
-                  })
-                }
+                  });
+                  setDropdown(!dropdown);
+                }}
               >
                 Contact
               </HashLink>
