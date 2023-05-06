@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.706225c2.css",
-    "main.js": "/static/js/main.edb05caf.js",
+    "main.css": "/static/css/main.6b52f14a.css",
+    "main.js": "/static/js/main.8d52a8c9.js",
     "static/media/profile.jpg": "/static/media/profile.cf09a2a789233c4e32dc.jpg",
+    "static/media/website-project-img.webp": "/static/media/website-project-img.070be5d034260fc37859.webp",
     "static/media/fractal7.webp": "/static/media/fractal7.e96a1aa2e72ba39f2382.webp",
     "static/media/fractal2.webp": "/static/media/fractal2.3a037bc6ffa76413dba6.webp",
-    "static/media/fractal1.webp": "/static/media/fractal1.e98b3459bfcd09a4b5ae.webp",
     "static/media/fractal8.webp": "/static/media/fractal8.bf69a03cb702a19866b1.webp",
     "static/media/fractal5.webp": "/static/media/fractal5.fb80d8eae81693241106.webp",
-    "static/media/Sam_Smith_Resume.pdf": "/static/media/Sam_Smith_Resume.eaa096c399e104f7120b.pdf",
+    "static/media/Sam_Smith_Resume.pdf": "/static/media/Sam_Smith_Resume.fac055e9ff2e3982ead8.pdf",
     "static/media/fractal9.webp": "/static/media/fractal9.1c2d4df6a6a2ce2ba0e2.webp",
     "static/media/fractal3.webp": "/static/media/fractal3.b1e44b9e6adf8d9988b5.webp",
     "static/media/fractal6.webp": "/static/media/fractal6.9600e4a8cab0f08b8959.webp",
     "static/media/fractal4.webp": "/static/media/fractal4.2256cd4d8573f2d223e3.webp",
     "static/media/mushroom.png": "/static/media/mushroom.b1dbe45882f7406a779a.png",
     "index.html": "/index.html",
-    "main.706225c2.css.map": "/static/css/main.706225c2.css.map",
-    "main.edb05caf.js.map": "/static/js/main.edb05caf.js.map"
+    "main.6b52f14a.css.map": "/static/css/main.6b52f14a.css.map",
+    "main.8d52a8c9.js.map": "/static/js/main.8d52a8c9.js.map"
   },
   "entrypoints": [
-    "static/css/main.706225c2.css",
-    "static/js/main.edb05caf.js"
+    "static/css/main.6b52f14a.css",
+    "static/js/main.8d52a8c9.js"
   ]
 }
