@@ -4,7 +4,7 @@ export const projectData = [
     name: "Portfolio Website",
     imageSrc: require("../assets/website-project-img.webp"),
     githubLink: "https://github.com/scs5/personal-website",
-    demoLink: "scoo.dev",
+    demoLink: "https://scoo.dev",
     technologies: ["React", "JavaScript", "HTML", "CSS"],
     categories: ["Misc"],
     description: "This website! Instead of using a standard drag-and-drop website builder, I decided it would be more interesting and allow more customization if I were to code it up myself from scratch. I'm still very new to frontend development, but this has been a pretty fun experience and I've learned a lot."
