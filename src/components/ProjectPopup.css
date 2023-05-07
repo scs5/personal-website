@@ -11,7 +11,7 @@
 }
 
 .popup {
-  background-color: #f8f0f0;
+  background-color: #cfcfcf;
   border: 1px solid #d4c6c7;
   border-radius: 8px;
   padding: 20px;
@@ -37,41 +37,44 @@
   position: absolute;
   top: 10px;
   right: 10px;
-  font-size: 24px;
-  font-weight: bold;
+  font-size: 75px;
+  font-weight: normal;
   cursor: pointer;
-  padding: 5px;
+  padding: 0;
   line-height: 1;
+  border: none;
+  background: none;
+  color: #4e4e4e;
 }
 
 .close-button:hover {
-  color: #fff;
-  background-color: #000;
+  color: rgb(31, 31, 31);
 }
 
 .project-title {
   font-size: 3.5rem;
-  margin-top: 0;
-  margin-bottom: 20px;
+  margin-top: 70px;
+  margin-bottom: 30px;
 }
 
 .project-technologies {
   font-size: 1.2rem;
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 .project-description {
-  margin-top: 20px;
+  margin-top: 40px;
   font-size: 1rem;
 }
 
 .project-link {
   font-size: 1rem;
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 .demo-link {
   font-size: 1rem;
+  margin-bottom: 20px;
 }
 
 a {

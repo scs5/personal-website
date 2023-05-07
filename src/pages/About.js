@@ -11,7 +11,7 @@ function About() {
         <div className="left-section">
           <div className="about-info">
             Hi there, I'm Sam, an aspiring data scientist. I hold degrees in
-            Computer Science and Mathematics from Clemson University, and I'm currently
+            Computer Science and Mathematics from Clemson University, and am currently
             pursuing a Masters in Computer Science at North Carolina State University.
             <br /><br />
             I love using data to solve problems and make informed decisions. Whether

@@ -17,12 +17,15 @@
   cursor: pointer;
 }
 
-.project:hover img {
-  filter: grayscale(1);
-}
-
-.project:hover .project-name {
-  opacity: 1;
+.project-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0, 0.4);
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out, transform 0.2s ease-in-out;
 }
 
 .project img {
@@ -32,7 +35,17 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
-  transition: filter 0.3s ease-in-out;
+  transition: opacity 0.2s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.project:hover .project-overlay {
+  opacity: 1;
+  transform: scale(0.9);
+}
+
+.project:hover img {
+  opacity: 0.3;
+  transform: scale(0.9);
 }
 
 .project:before {
@@ -46,11 +59,14 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.75);
   color: #fff;
   padding: 10px;
-  opacity: 0;
-  transition: opacity 0.3s ease-in-out;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  z-index: 1;
+  white-space: normal;
 }
 
 .filter-bar-container {
@@ -80,7 +96,7 @@
   color: aliceblue;
   font-size: 14px;
   cursor: pointer;
-  transition: all 0.2s ease-in-out;
+  transition: color 0.2s ease-in-out;
   color: #bcb3b4;
   white-space: nowrap;
 }

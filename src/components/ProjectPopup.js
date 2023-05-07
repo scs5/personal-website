@@ -42,7 +42,7 @@ function ProjectPopup({ project, onClose }) {
         transition={{ duration: 0.4 }}
       >
         <button className="close-button" onClick={onClose}>
-          X
+          <i class="fa fa-times-circle-o" aria-hidden="true"></i>
         </button>
         <h2 className="project-title">{project.name}</h2>
         <img className="popup-image" src={project.imageSrc} alt={project.name} />
@@ -52,10 +52,7 @@ function ProjectPopup({ project, onClose }) {
           </p>
         )}
         <p className="project-description">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non
-          risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec,
-          ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula
-          massa, varius a, semper congue, euismod non, mi.
+          {project.description}
         </p>
         <p className="project-link">
           <strong>Github:</strong>{" "}
