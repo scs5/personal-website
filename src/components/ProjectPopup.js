@@ -45,7 +45,7 @@ function ProjectPopup({ project, onClose }) {
           <i class="fa fa-times-circle-o" aria-hidden="true"></i>
         </button>
         <h2 className="project-title">{project.name}</h2>
-        <img className="popup-image" src={project.imageSrc} alt={project.name} />
+        <img className="popup-image" src={project.popupSrc} alt={project.name} />
         {project.technologies && (
           <p className="project-technologies">
             <strong>Technologies:</strong> {project.technologies.join(", ")}
