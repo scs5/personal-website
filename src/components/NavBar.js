@@ -47,7 +47,7 @@ const NavBar = () => {
   
   return (
     <div>
-      <nav className={showNav ? 'nav hidden-nav' : 'nav'}>
+      <nav className='nav'>
         <HashLink
           to="#home"
           className="site-logo"
