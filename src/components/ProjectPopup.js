@@ -55,6 +55,7 @@ function ProjectPopup({ project, onClose }) {
         <p className="project-description">
           {project.description}
         </p>
+<<<<<<< Updated upstream
 
         {project.links.map((link, index) => (
           <p className={`link ${index === project.links.length - 1 ? 'last-link' : ''}`} key={index}>
@@ -62,6 +63,18 @@ function ProjectPopup({ project, onClose }) {
             <a href={link.url} target="_blank" rel="noopener noreferrer">{link.url}</a>
           </p>
         ))}
+=======
+        <p className="project-link">
+          <strong>Github:</strong>{" "}
+          <a href={project.githubLink} target="_blank" rel="noopener noreferrer">{project.githubLink}</a>
+        </p>
+        {project.demoLink && ( // Check if project.demoLink is defined
+          <p className="demo-link">
+            <strong>Live Demo:</strong>{" "}
+            <a href={project.demoLink} target="_blank" rel="noopener noreferrer">{project.demoLink}</a>
+          </p>
+        )}
+>>>>>>> Stashed changes
       </motion.div>
     </motion.div>
   );

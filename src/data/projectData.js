@@ -13,6 +13,7 @@ export const projectData = [
   },
   {
     id: 2,
+<<<<<<< Updated upstream
     name: "Coming Soon!",
     imageSrc: require("../assets/fractal2.webp"),
     popupSrc: require("../assets/fractal2.webp"),
@@ -106,5 +107,13 @@ export const projectData = [
     links: [
       { name: "GitHub", url: "https://github.com" }
     ]
+=======
+    name: "Job Market Skills Analysis",
+    imageSrc: require("../assets/indeed-scraper-logo.webp"),
+    githubLink: "https://github.com/scs5/indeed-scraper",
+    technologies: ["Python", "APIs", "Selenium"],
+    categories: ["Misc"],
+    description: "Have you ever wondered which skills are in demand in the job market? Are you looking to enhance your skill set for a specific career path? Look no further! This project is all about automating the process of extracting skills from job listings on Indeed, categorizing them, and diving deep into data analysis to uncover valuable insights. See my repository below for more details."
+>>>>>>> Stashed changes
   },
 ];
