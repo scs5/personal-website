@@ -10,7 +10,7 @@ function About() {
       <div className="about-container">
         <div className="left-section">
           <div className="about-info">
-            Hi there, I'm Sam, an aspiring data scientist. I hold degrees in
+            Hi there, I'm Sam, an aspiring Data Scientist or Machine Learning Engineer. I hold degrees in
             Computer Science and Mathematics from Clemson University, and am currently
             pursuing a Masters in Computer Science at North Carolina State University.
             <br /><br />
