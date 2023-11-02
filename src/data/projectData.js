@@ -13,107 +13,11 @@ export const projectData = [
   },
   {
     id: 2,
-<<<<<<< Updated upstream
-    name: "Coming Soon!",
-    imageSrc: require("../assets/fractal2.webp"),
-    popupSrc: require("../assets/fractal2.webp"),
-    technologies: [""],
-    categories: [""],
-    description: "New projects coming soon!",
-    links: [
-      { name: "GitHub", url: "https://github.com" }
-    ]
-  },
-  {
-    id: 3,
-    name: "Coming Soon!",
-    imageSrc: require("../assets/fractal3.webp"),
-    popupSrc: require("../assets/fractal3.webp"),
-    technologies: [""],
-    categories: [""],
-    description: "New projects coming soon!",
-    links: [
-      { name: "GitHub", url: "https://github.com" }
-    ]
-  },
-  {
-    id: 4,
-    name: "Coming Soon!",
-    imageSrc: require("../assets/fractal4.webp"),
-    popupSrc: require("../assets/fractal4.webp"),
-    technologies: [""],
-    categories: [""],
-    description: "New projects coming soon!",
-    links: [
-      { name: "GitHub", url: "https://github.com" }
-    ]
-  },
-  {
-    id: 5,
-    name: "Coming Soon!",
-    imageSrc: require("../assets/fractal5.webp"),
-    popupSrc: require("../assets/fractal5.webp"),
-    technologies: [""],
-    categories: [""],
-    description: "New projects coming soon!",
-    links: [
-      { name: "GitHub", url: "https://github.com" }
-    ]
-  },
-  {
-    id: 6,
-    name: "Coming Soon!",
-    imageSrc: require("../assets/fractal6.webp"),
-    popupSrc: require("../assets/fractal6.webp"),
-    technologies: [""],
-    categories: [""],
-    description: "New projects coming soon!",
-    links: [
-      { name: "GitHub", url: "https://github.com" }
-    ]
-  },
-  {
-    id: 7,
-    name: "Coming Soon!",
-    imageSrc: require("../assets/fractal7.webp"),
-    popupSrc: require("../assets/fractal7.webp"),
-    technologies: [""],
-    categories: [""],
-    description: "New projects coming soon!",
-    links: [
-      { name: "GitHub", url: "https://github.com" }
-    ]
-  },
-  {
-    id: 8,
-    name: "Coming Soon!",
-    imageSrc: require("../assets/fractal8.webp"),
-    popupSrc: require("../assets/fractal8.webp"),
-    technologies: [""],
-    categories: [""],
-    description: "New projects coming soon!",
-    links: [
-      { name: "GitHub", url: "https://github.com" }
-    ]
-  },
-  {
-    id: 9,
-    name: "Coming Soon!",
-    imageSrc: require("../assets/fractal9.webp"),
-    popupSrc: require("../assets/fractal9.webp"),
-    technologies: [""],
-    categories: [""],
-    description: "New projects coming soon!",
-    links: [
-      { name: "GitHub", url: "https://github.com" }
-    ]
-=======
     name: "Job Market Skills Analysis",
     imageSrc: require("../assets/indeed-scraper-logo.webp"),
     githubLink: "https://github.com/scs5/indeed-scraper",
     technologies: ["Python", "APIs", "Selenium"],
     categories: ["Misc"],
     description: "Have you ever wondered which skills are in demand in the job market? Are you looking to enhance your skill set for a specific career path? Look no further! This project is all about automating the process of extracting skills from job listings on Indeed, categorizing them, and diving deep into data analysis to uncover valuable insights. See my repository below for more details."
->>>>>>> Stashed changes
   },
 ];
