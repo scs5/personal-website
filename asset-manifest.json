@@ -1,18 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.1b0a26f3.css",
-    "main.js": "/static/js/main.7cc77291.js",
+    "main.css": "/static/css/main.bcac50e6.css",
+    "main.js": "/static/js/main.0d409f65.js",
     "static/media/website-project-img.webp": "/static/media/website-project-img.070be5d034260fc37859.webp",
     "static/media/profile.jpg": "/static/media/profile.72a7178ace2cad22f68f.jpg",
-    "static/media/Sam_Smith_Resume.pdf": "/static/media/Sam_Smith_Resume.7fcefb53597c5e7c6493.pdf",
+    "static/media/Sam_Smith_Resume.pdf": "/static/media/Sam_Smith_Resume.3160f1ab4afadd9d0cac.pdf",
+    "static/media/wolfpack-database-logo.webp": "/static/media/wolfpack-database-logo.d2cccbf1ca2a1f62eba4.webp",
     "static/media/mushroom.png": "/static/media/mushroom.b1dbe45882f7406a779a.png",
     "static/media/indeed-scraper-logo.webp": "/static/media/indeed-scraper-logo.a60f9de97b0ed09430a9.webp",
+    "static/media/website-header.webp": "/static/media/website-header.11d976ab6e6d9d84f9fa.webp",
     "index.html": "/index.html",
-    "main.1b0a26f3.css.map": "/static/css/main.1b0a26f3.css.map",
-    "main.7cc77291.js.map": "/static/js/main.7cc77291.js.map"
+    "main.bcac50e6.css.map": "/static/css/main.bcac50e6.css.map",
+    "main.0d409f65.js.map": "/static/js/main.0d409f65.js.map"
   },
   "entrypoints": [
-    "static/css/main.1b0a26f3.css",
-    "static/js/main.7cc77291.js"
+    "static/css/main.bcac50e6.css",
+    "static/js/main.0d409f65.js"
   ]
 }
