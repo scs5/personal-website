@@ -11,21 +11,22 @@ function Contact() {
   const form = useRef();
   const sendEmail = (e) => {
     e.preventDefault();
-
+  
     if (!name || !email || !message) {
-      toast.error("Please fill out all fields");
+      toast.error("Please fill out all fields", { position: toast.POSITION.BOTTOM_RIGHT });
       return;
     }
-
+  
     emailjs.sendForm('service_l4gl99c', 'template_zmgnccm', form.current, 'wgy1cMW6676ZpP1-y')
       .then((result) => {
-          toast.success("Message sent successfully");
+        toast.success("Message sent successfully", { position: toast.POSITION.BOTTOM_RIGHT });
       }, (error) => {
-          toast.error("Error sending message");
+        toast.error("Error sending message", { position: toast.POSITION.BOTTOM_RIGHT });
       });
-      setName('');
-      setEmail('');
-      setMessage('');
+  
+    setName('');
+    setEmail('');
+    setMessage('');
   };
 
   return (
