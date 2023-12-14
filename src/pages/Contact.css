@@ -78,7 +78,7 @@ textarea {
 }
 
 .send-button {
-  background-color: #bcb3b4;
+  background-color: white;
   color: black;
   font-size: 1rem;
   display: inline-block;
@@ -87,4 +87,15 @@ textarea {
   padding: 0.5rem 2rem;
   border-radius: 8px;
   cursor: pointer;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+  transform: translateY(0) scale(1);
+  transition: 0.2s;
+  z-index: 9999;
+}
+
+.send-button:hover {
+  background-color: #ffdd3a;
+  box-shadow: 10px 10px #000; /* Add box-shadow on hover */
+  transform: translate(-5px, -5px) !important; /* Combine translations */
+  opacity: 1 !important;
 }
