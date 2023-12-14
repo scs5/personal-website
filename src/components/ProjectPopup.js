@@ -61,16 +61,6 @@ function ProjectPopup({ project, onClose }) {
             <a href={link.url} target="_blank" rel="noopener noreferrer">{link.url}</a>
           </p>
         ))}
-        <p className="project-link">
-          <strong>Github:</strong>{" "}
-          <a href={project.githubLink} target="_blank" rel="noopener noreferrer">{project.githubLink}</a>
-        </p>
-        {project.demoLink && ( // Check if project.demoLink is defined
-          <p className="demo-link">
-            <strong>Live Demo:</strong>{" "}
-            <a href={project.demoLink} target="_blank" rel="noopener noreferrer">{project.demoLink}</a>
-          </p>
-        )}
       </motion.div>
     </motion.div>
   );
