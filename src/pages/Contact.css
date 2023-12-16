@@ -95,7 +95,7 @@ textarea {
 
 .send-button:hover {
   background-color: #ffdd3a;
-  box-shadow: 10px 10px #000; /* Add box-shadow on hover */
-  transform: translate(-5px, -5px) !important; /* Combine translations */
+  box-shadow: 10px 10px #000;
+  transform: translate(-5px, -5px) !important;
   opacity: 1 !important;
 }
