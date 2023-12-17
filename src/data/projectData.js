@@ -35,4 +35,16 @@ export const projectData = [
     categories: ["Data Science"],
     description: "In collaboration with a team of graduate students during a DBMS course, I created a database modeling NC State's parking system. Our project includes a straightforward user interface enabling users to perform various operations that, behind the scenes, run SQL queries via SQLite to manage the data effectively."
   },
+  {
+    id: 4,
+    name: "Sign Language Detection",
+    imageSrc: require("../assets/asl-detection-logo.webp"),
+    popupSrc: require("../assets/asl-detection-logo.webp"),
+    links: [
+      { name: "GitHub", url: "https://github.com/scs5/sign-language-detection" }
+    ],
+    technologies: ["Scikit-learn", "OpenCV", "Python"],
+    categories: ["Data Science"],
+    description: "This project aims to create a real-time sign language detection system using a custom dataset of hand signs. This involves capturing multiple images of different hand signs, extracting hand landmarks for feature representation, and training a classification model to predict the sign. The trained model is then deployed for real-time sign language detection."
+  },
 ];
