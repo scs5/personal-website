@@ -60,9 +60,9 @@
 
 .project-name {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  bottom: 0; /* Adjusted to place the title below the image */
+  left: 0;
+  width: 100%;
   background-color: rgba(0, 0, 0, 0.75);
   color: #fff;
   padding: 10px;
