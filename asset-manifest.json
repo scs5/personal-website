@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.0dafbb73.css",
-    "main.js": "/static/js/main.616eb895.js",
+    "main.css": "/static/css/main.244e9c89.css",
+    "main.js": "/static/js/main.84d240fe.js",
     "static/media/website-project-img.webp": "/static/media/website-project-img.070be5d034260fc37859.webp",
     "static/media/profile.jpg": "/static/media/profile.72a7178ace2cad22f68f.jpg",
     "static/media/Sam_Smith_Resume.pdf": "/static/media/Sam_Smith_Resume.d0f0a5d5c63b379585ce.pdf",
@@ -9,13 +9,13 @@
     "static/media/mushroom.png": "/static/media/mushroom.b1dbe45882f7406a779a.png",
     "static/media/indeed-scraper-logo.webp": "/static/media/indeed-scraper-logo.a60f9de97b0ed09430a9.webp",
     "static/media/website-header.webp": "/static/media/website-header.11d976ab6e6d9d84f9fa.webp",
-    "static/media/asl-detection-logo.webp": "/static/media/asl-detection-logo.884f00c75de0856a9c50.webp",
+    "static/media/asl-detection-logo.webp": "/static/media/asl-detection-logo.d271e62c7984ca8f239e.webp",
     "index.html": "/index.html",
-    "main.0dafbb73.css.map": "/static/css/main.0dafbb73.css.map",
-    "main.616eb895.js.map": "/static/js/main.616eb895.js.map"
+    "main.244e9c89.css.map": "/static/css/main.244e9c89.css.map",
+    "main.84d240fe.js.map": "/static/js/main.84d240fe.js.map"
   },
   "entrypoints": [
-    "static/css/main.0dafbb73.css",
-    "static/js/main.616eb895.js"
+    "static/css/main.244e9c89.css",
+    "static/js/main.84d240fe.js"
   ]
 }
