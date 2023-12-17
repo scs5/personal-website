@@ -20,7 +20,7 @@ function ProjectPopup({ project, onClose }) {
   }, [popupRef, onClose]);
 
   useEffect(() => {
-    document.body.style.overflow = "hidden";
+    //document.body.style.overflow = "hidden";
 
     return () => {
       document.body.style.overflow = "auto";
@@ -45,23 +45,22 @@ function ProjectPopup({ project, onClose }) {
           <i class="fa fa-times-circle-o" aria-hidden="true"></i>
         </button>
         <h2 className="project-title">{project.name}</h2>
-        <img className="popup-image" src={project.imageSrc} alt={project.name} />
+        <img className="popup-image" src={project.popupSrc} alt={project.name} />
         {project.technologies && (
           <p className="project-technologies">
             <strong>Technologies:</strong> {project.technologies.join(", ")}
           </p>
         )}
+
         <p className="project-description">
           {project.description}
         </p>
-        <p className="project-link">
-          <strong>Github:</strong>{" "}
-          <a href={project.githubLink} target="_blank" rel="noopener noreferrer">{project.githubLink}</a>
-        </p>
-        <p className="demo-link">
-          <strong>Live Demo:</strong>{" "}
-          <a href={project.demoLink} target="_blank" rel="noopener noreferrer">{project.demoLink}</a>
-        </p>
+        {project.links.map((link, index) => (
+          <p className={`link ${index === project.links.length - 1 ? 'last-link' : ''}`} key={index}>
+            <strong>{link.name}:</strong>{" "}
+            <a href={link.url} target="_blank" rel="noopener noreferrer">{link.url}</a>
+          </p>
+        ))}
       </motion.div>
     </motion.div>
   );

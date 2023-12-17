@@ -5,31 +5,29 @@
   margin-bottom: 55px;
 }
 
+.social-icon {
+  position: relative;
+}
+
 .social-icon a {
   display: inline-block;
-  width: 50px;
+  width: 100px;
   height: 50px;
   background-color: white;
-  border-radius: 50%;
+  border-radius: 15px;
   text-align: center;
   margin: 0 15px;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
-  transform: translateY(0) scale(1);
-  transition: 0.3s;
+  transition: 0.15s;
   z-index: 9999;
 }
 
-.social-icon:hover a {
-  transform: translateY(-6px) scale(1.2);
-  margin: 0 20px;
-}
-
-.social-icon:nth-child(1):hover a {
-  background-color: #ffdd3a;
-}
-
+.social-icon:nth-child(1):hover a,
 .social-icon:nth-child(2):hover a {
   background-color: #ffdd3a;
+  box-shadow: 10px 10px #000;
+  transform: translate(-3px, -3px) !important;
+  opacity: 1 !important;
 }
 
 .social-icon a i {
@@ -38,8 +36,4 @@
   line-height: 50px;
   position: relative;
   z-index: 9999;
-}
-
-.social-icon {
-  position: relative;
 }

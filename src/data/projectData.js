@@ -3,90 +3,48 @@ export const projectData = [
     id: 1,
     name: "Portfolio Website",
     imageSrc: require("../assets/website-project-img.webp"),
-    githubLink: "https://github.com/scs5/personal-website",
-    demoLink: "https://scoo.dev",
+    popupSrc: require("../assets/website-header.webp"),
     technologies: ["React", "JavaScript", "HTML", "CSS"],
     categories: ["Misc"],
-    description: "This website! Instead of using a standard drag-and-drop website builder, I decided it would be more interesting and allow more customization if I were to code it up myself from scratch. I'm still very new to frontend development, but this has been a pretty fun experience and I've learned a lot."
+    description: "This website right here! Instead of using a standard drag-and-drop website builder, I decided it would be more interesting and allow more customization if I were to code it up myself from scratch. I'm still very new to frontend development, but this has been a pretty fun experience and I've learned a lot.",
+    links: [
+      { name: "GitHub", url: "https://github.com/scs5/personal-website" }
+    ]
   },
   {
     id: 2,
-    name: "Coming Soon!",
-    imageSrc: require("../assets/fractal2.webp"),
-    githubLink: "https://github.com",
-    demoLink: "https://demo.com",
-    technologies: [""],
-    categories: [""],
-    description: "New projects coming soon!"
+    name: "Job Market Skills Analysis",
+    imageSrc: require("../assets/indeed-scraper-logo.webp"),
+    popupSrc: require("../assets/indeed-scraper-logo.webp"),
+    links: [
+      { name: "GitHub", url: "https://github.com/scs5/indeed-scraper" }
+    ],
+    technologies: ["Python", "APIs", "Selenium"],
+    categories: ["Misc"],
+    description: "Have you ever wondered which skills are in demand in the job market? Are you looking to enhance your skill set for a specific career path? Look no further! This project is all about automating the process of extracting skills from job listings on Indeed, categorizing them, and diving deep into data analysis to uncover valuable insights. See my repository below for more details."
   },
   {
     id: 3,
-    name: "Coming Soon!",
-    imageSrc: require("../assets/fractal3.webp"),
-    githubLink: "https://github.com",
-    demoLink: "https://demo.com",
-    technologies: [""],
-    categories: [""],
-    description: "New projects coming soon!"
+    name: "Wolfpack Parking Database",
+    imageSrc: require("../assets/wolfpack-database-logo.webp"),
+    popupSrc: require("../assets/wolfpack-database-logo.webp"),
+    links: [
+      { name: "GitHub", url: "https://github.com/scs5/ncsu-parking-db" }
+    ],
+    technologies: ["SQL", "Python"],
+    categories: ["Data Science"],
+    description: "In collaboration with a team of graduate students during a DBMS course, I created a database modeling NC State's parking system. Our project includes a straightforward user interface enabling users to perform various operations that, behind the scenes, run SQL queries via SQLite to manage the data effectively."
   },
   {
     id: 4,
-    name: "Coming Soon!",
-    imageSrc: require("../assets/fractal4.webp"),
-    githubLink: "https://github.com",
-    demoLink: "https://demo.com",
-    technologies: [""],
-    categories: [""],
-    description: "New projects coming soon!"
-  },
-  {
-    id: 5,
-    name: "Coming Soon!",
-    imageSrc: require("../assets/fractal5.webp"),
-    githubLink: "https://github.com",
-    demoLink: "https://demo.com",
-    technologies: [""],
-    categories: [""],
-    description: "New projects coming soon!"
-  },
-  {
-    id: 6,
-    name: "Coming Soon!",
-    imageSrc: require("../assets/fractal6.webp"),
-    githubLink: "https://github.com",
-    demoLink: "https://demo.com",
-    technologies: [""],
-    categories: [""],
-    description: "New projects coming soon!"
-  },
-  {
-    id: 7,
-    name: "Coming Soon!",
-    imageSrc: require("../assets/fractal7.webp"),
-    githubLink: "https://github.com",
-    demoLink: "https://demo.com",
-    technologies: [""],
-    categories: [""],
-    description: "New projects coming soon!"
-  },
-  {
-    id: 8,
-    name: "Coming Soon!",
-    imageSrc: require("../assets/fractal8.webp"),
-    githubLink: "https://github.com",
-    demoLink: "https://demo.com",
-    technologies: [""],
-    categories: [""],
-    description: "New projects coming soon!"
-  },
-  {
-    id: 9,
-    name: "Coming Soon!",
-    imageSrc: require("../assets/fractal9.webp"),
-    githubLink: "https://github.com",
-    demoLink: "https://demo.com",
-    technologies: [""],
-    categories: [""],
-    description: "New projects coming soon!"
+    name: "Sign Language Detection",
+    imageSrc: require("../assets/asl-detection-logo.webp"),
+    popupSrc: require("../assets/asl-detection-logo.webp"),
+    links: [
+      { name: "GitHub", url: "https://github.com/scs5/sign-language-detection" }
+    ],
+    technologies: ["Scikit-learn", "OpenCV", "Python"],
+    categories: ["Data Science"],
+    description: "This project aims to create a real-time sign language detection system using a custom dataset of hand signs. This involves capturing multiple images of different hand signs, extracting hand landmarks for feature representation, and training a classification model to predict the sign. The trained model is then deployed for real-time sign language detection."
   },
 ];
