@@ -81,7 +81,7 @@ export const projectData = [
     ],
     technologies: ["Scikit-learn", "Python"],
     categories: ["Data Science"],
-    description: "In this project, I exported and cleaned up personal text message data. I dug into the data, pulled out some cool insights, and made some slick visualizations. Now, I'm putting together a web dashboard to show off and play around with these analytics."
+    description: "In this project, I exported and cleaned up personal text message data. I dug into the data, pulled out some cool insights, and made some cool visualizations."
   },
   {
     id: 8,
