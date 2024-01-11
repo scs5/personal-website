@@ -25,15 +25,15 @@ export const projectData = [
   },
   {
     id: 3,
-    name: "Wolfpack Parking Database",
-    imageSrc: require("../assets/wolfpack-database-logo.webp"),
-    popupSrc: require("../assets/wolfpack-database-banner.webp"),
+    name: "Learn Data Science",
+    imageSrc: require("../assets/ds-notebooks-logo.webp"),
+    popupSrc: require("../assets/ds-notebooks-banner.webp"),
     links: [
-      { name: "GitHub", url: "https://github.com/scs5/ncsu-parking-db" }
+      { name: "GitHub", url: "https://github.com/scs5/data-science-notebooks" }
     ],
-    technologies: ["SQL", "Python"],
+    technologies: ["Scikit-learn", "Tensorflow", "Python"],
     categories: ["Data Science"],
-    description: "In collaboration with a team of graduate students during a DBMS course, I created a database modeling NC State's parking system. Our project includes a straightforward user interface enabling users to perform various operations that, behind the scenes, run SQL queries via SQLite to manage the data effectively."
+    description: "This project contains several educational Jupyter notebooks on a range of data science and machine learning topics. This has been a great way to refresh my own skills in a way that helps others."
   },
   {
     id: 4,
@@ -49,14 +49,50 @@ export const projectData = [
   },
   {
     id: 5,
+    name: "Twitter Bot Detection",
+    imageSrc: require("../assets/twitter-bot-logo.webp"),
+    popupSrc: require("../assets/twitter-bot-banner.webp"),
+    links: [
+      { name: "GitHub", url: "https://github.com/scs5/twitter-bot-detection" }
+    ],
+    technologies: ["Scikit-learn", "NLTK", "Python"],
+    categories: ["Data Science"],
+    description: "In this project, I developed a Twitter bot detection system. The process involved cleaning the dataset, creating new textual features, and applying a prediction model. The model achieved an accuracy of approximately 90%."
+  },
+  {
+    id: 6,
     name: "Cirrhosis Outcome Prediction",
     imageSrc: require("../assets/cirrhosis-prediction-logo.webp"),
     popupSrc: require("../assets/cirrhosis-prediction-banner.webp"),
     links: [
       { name: "GitHub", url: "https://github.com/scs5/cirrhosis-prediction" }
     ],
-    technologies: ["Scikit-learn", "Optuna", "Python"],
+    technologies: ["Scikit-learn", "Python"],
     categories: ["Data Science"],
     description: "This was my first Kaggle competition where the task was to predict the outcomes of cirrhosis patients. I placed in the top 15% by creating a simple classification pipeline using XGBoost, Optuna hyperparameter tuning, and experimenting with autoencoders."
+  },
+  {
+    id: 7,
+    name: "Text Analytics",
+    imageSrc: require("../assets/text-analytics-logo.png"),
+    popupSrc: require("../assets/text-analytics-banner.webp"),
+    links: [
+      { name: "GitHub", url: "https://github.com/scs5/text-analytics" }
+    ],
+    technologies: ["Scikit-learn", "Python"],
+    categories: ["Data Science"],
+    description: "In this project, I exported and cleaned up personal text message data. I dug into the data, pulled out some cool insights, and made some slick visualizations. Now, I'm putting together a web dashboard to show off and play around with these analytics."
+  },
+  {
+    id: 8,
+    name: "Wolfpack Parking Database",
+    imageSrc: require("../assets/wolfpack-database-logo.webp"),
+    popupSrc: require("../assets/wolfpack-database-banner.webp"),
+    links: [
+      { name: "GitHub", url: "https://github.com/scs5/ncsu-parking-db" }
+    ],
+    technologies: ["SQL", "Python"],
+    categories: ["Data Science"],
+    description: "In collaboration with a team of graduate students during a DBMS course, I created a database modeling NC State's parking system. Our project includes a straightforward user interface enabling users to perform various operations that, behind the scenes, run SQL queries via SQLite to manage the data effectively."
   },
 ];
