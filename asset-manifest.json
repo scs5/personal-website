@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.202ad06e.css",
-    "main.js": "/static/js/main.cc09ccb8.js",
+    "main.js": "/static/js/main.d408a5e5.js",
     "static/media/website-logo.webp": "/static/media/website-logo.070be5d034260fc37859.webp",
     "static/media/profile.jpg": "/static/media/profile.72a7178ace2cad22f68f.jpg",
     "static/media/ds-notebooks-banner.webp": "/static/media/ds-notebooks-banner.59aa6887a8a29b7c9d03.webp",
@@ -9,8 +9,10 @@
     "static/media/cirrhosis-prediction-banner.webp": "/static/media/cirrhosis-prediction-banner.61e55713ee54174a7d3e.webp",
     "static/media/ds-notebooks-logo.webp": "/static/media/ds-notebooks-logo.65ec598ed3a2772f87d5.webp",
     "static/media/text-analytics-logo.png": "/static/media/text-analytics-logo.1380a83699aeb861282e.png",
+    "static/media/spotify-banner.webp": "/static/media/spotify-banner.0a3b7bebcfa8150bef08.webp",
     "static/media/wolfpack-database-logo.webp": "/static/media/wolfpack-database-logo.d2cccbf1ca2a1f62eba4.webp",
     "static/media/asl-detection-banner.webp": "/static/media/asl-detection-banner.e2df34b6a084f4f36496.webp",
+    "static/media/spotify-logo.webp": "/static/media/spotify-logo.067fe035b9b494f0e702.webp",
     "static/media/wolfpack-database-banner.webp": "/static/media/wolfpack-database-banner.da49c90aa71fc7c94de8.webp",
     "static/media/text-analytics-banner.webp": "/static/media/text-analytics-banner.87edc5d204a2a3aebc60.webp",
     "static/media/twitter-bot-logo.webp": "/static/media/twitter-bot-logo.d755d20ed148d4754dfb.webp",
@@ -23,10 +25,10 @@
     "static/media/twitter-bot-banner.webp": "/static/media/twitter-bot-banner.8408bee02c738643aa80.webp",
     "index.html": "/index.html",
     "main.202ad06e.css.map": "/static/css/main.202ad06e.css.map",
-    "main.cc09ccb8.js.map": "/static/js/main.cc09ccb8.js.map"
+    "main.d408a5e5.js.map": "/static/js/main.d408a5e5.js.map"
   },
   "entrypoints": [
     "static/css/main.202ad06e.css",
-    "static/js/main.cc09ccb8.js"
+    "static/js/main.d408a5e5.js"
   ]
 }
