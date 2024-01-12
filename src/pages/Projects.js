@@ -7,7 +7,7 @@ import ProjectPopup from "../components/ProjectPopup";
 function Projects() {
   const [activeFilter, setActiveFilter] = useState("All");
   const [selectedProject, setSelectedProject] = useState(null);
-  const filters = ["All", "Data Science", "Misc"];
+  const filters = ["All", "Analytics", "Machine Learning", "Misc"];
   const filteredProjects =
     activeFilter === "All"
       ? projectData
