@@ -1,2 +1,3 @@
-# Sam Smith's Website
-[scoo.dev](https://scoo.dev)
+# Sam Smith Website (Updated)
+
+Based on codewithsadee's template.
