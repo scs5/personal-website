@@ -1,3 +1,5 @@
-# Sam Smith Website (Updated)
+# [Sam Smith's Website](https://scoo.dev/)
 
-Based on codewithsadee's template.
+See old version of website [here](https://scs5.github.io/personal-website-old/).
+
+Based on [codewithsadee's template](https://github.com/codewithsadee/vcard-personal-portfolio).
