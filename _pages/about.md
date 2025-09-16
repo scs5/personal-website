@@ -2,11 +2,11 @@
 layout: about
 title: about
 permalink: /
-subtitle: I build things sometimes.
+subtitle: 
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: profile_pic.webp
   image_circular: true # crops the image to make it circular
   # more_info: >
   #   <p>555 your office number</p>
@@ -22,4 +22,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Test
+Hello👋 I'm a full-stack developer who likes to build things -- especially anything involving data.
+
+I have a background in mathematics and computer science and currently work as a Software Developer at [SAS Institute](https://www.sas.com/en_us/home.html) in Cary, NC. Outside of work, I love to play volleyball, tennis, and snowboard.
+
+This site is where I share my projects and the occasional write-up about things I'm learning along the way.
