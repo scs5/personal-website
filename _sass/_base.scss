@@ -397,6 +397,17 @@ ul.task-list input[type="checkbox"] {
 
 // Social (bottom)
 
+// About page section spacing
+.news-section,
+.latest-posts-section,
+.selected-papers-section {
+  margin-bottom: 3rem;
+}
+
+.social-section {
+  margin-top: 3rem;
+}
+
 .social {
   text-align: center;
 
